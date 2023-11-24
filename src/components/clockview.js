@@ -38,7 +38,7 @@ export default class ClockView extends Co {
           backend.launchIAC('instant-settings');
           break;
         case 'ArrowDown':
-          backend.launchApp('app://fastcontact.bananahackers.net//manifest.webapp');
+          backend.launchApp('app://fastcontact.bananahackers.net/manifest.webapp');
           break;
         case 'Call':
           backend.launchApp('app://communications.gaiamobile.org/manifest.webapp#call_log');
