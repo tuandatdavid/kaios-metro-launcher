@@ -1,5 +1,6 @@
 # kaios-metro-launcher
 credit to Affe Null (https://gitlab.com/affenull2345/kaios-metro-launcher)
+adds ArrowLeft = system launcher (dialer) and ArrowRight = k-music
 
 # Custom launcher for KaiOS
 
@@ -9,21 +10,7 @@ use Call Log and Contacts for that.
 The user interface was designed to resemble that of the [cancelled Microsoft
 Feature Phone](https://www.windowscentral.com/microsoft-feature-phone-rm-1182-windows), hence the name "metro".
 
-<div>
-![Screenshot: apps](screenshots/apps.png)
-![Screenshot: apps/orange](screenshots/orange_apps.png)
-</div>
-<div>
-![Screenshot: more apps](screenshots/moreapps.png)
-![Screenshot: more apps/orange](screenshots/orange_moreapps.png)
-</div>
-<div>
-![Screenshot: clock](screenshots/clock.png)
-![Screenshot: clock/orange](screenshots/orange_clock.png)
-</div>
 
-
-## Navigation
 
 Clock screen:
  - `Up`: Quick settings (2.5.2+)
