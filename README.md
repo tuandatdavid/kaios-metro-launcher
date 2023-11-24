@@ -1,2 +1,67 @@
 # kaios-metro-launcher
-credit to Affe Null
+credit to Affe Null (https://gitlab.com/affenull2345/kaios-metro-launcher)
+
+# Custom launcher for KaiOS
+
+This is a custom homescreen app for KaiOS. It can't dial phone numbers yet,
+use Call Log and Contacts for that.
+
+The user interface was designed to resemble that of the [cancelled Microsoft
+Feature Phone](https://www.windowscentral.com/microsoft-feature-phone-rm-1182-windows), hence the name "metro".
+
+<div>
+![Screenshot: apps](screenshots/apps.png)
+![Screenshot: apps/orange](screenshots/orange_apps.png)
+</div>
+<div>
+![Screenshot: more apps](screenshots/moreapps.png)
+![Screenshot: more apps/orange](screenshots/orange_moreapps.png)
+</div>
+<div>
+![Screenshot: clock](screenshots/clock.png)
+![Screenshot: clock/orange](screenshots/orange_clock.png)
+</div>
+
+
+## Navigation
+
+Clock screen:
+ - `Up`: Quick settings (2.5.2+)
+ - `Down`: Contacts
+ - `Call`: Call log
+ - `Left Softkey`: Notifications
+ - `Right Softkey`: Camera
+
+App menu:
+ - `Left Softkey`: Currently toggles between blue and orange theme.
+
+## To-Do
+
+ - Options menu
+ - Moving/reordering apps
+ - More themes
+ - Dialing feature
+ - Pinned Websites from system (currently just hadcoded to
+   BananaHackers.net and the wiki which does not work on KaiOS)
+
+Feel free to submit a merge request if you want to implement something new!!
+
+## Build
+
+For a production build:
+```
+yarn
+yarn build:prod
+```
+
+For a development build:
+```
+yarn
+yarn build:dev
+```
+
+## Install
+
+Sideload the app, then go to 'Device Settings' in WebIDE and change the
+`homescreen.manifestURL` setting to `app://launcher.km/manifest.webapp`.
+Restart the phone if needed.
