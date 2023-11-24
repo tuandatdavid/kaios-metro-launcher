@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'menuicons';
+  src:
+    url('fonts/menuicons.ttf?e3f6jr') format('truetype'),
+    url('fonts/menuicons.woff?e3f6jr') format('woff'),
+    url('fonts/menuicons.svg?e3f6jr#menuicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="skico-"], [class*=" skico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'menuicons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.skico-menu:before {
+  content: "\e900";
+}
+.skico-message:before {
+  content: "\e901";
+}

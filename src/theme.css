@@ -1,0 +1,41 @@
+/*
+ * Copyright (C) 2021 Affe Null <affenull2345@gmail.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+:root {
+  --color-tile-blue: #00a0ff;
+  --color-tile-orange: #ff9000;
+  --color-background-blue: rgba(0, 85, 155, 0.68);
+  --color-background-orange: rgba(85, 45, 0, 0.68);
+  --color-tile-overlay: rgba(0, 0, 0, 0.15);
+  --color-tile-selected-overlay: rgba(255, 255, 255, 0.15);
+  --color-text: #fefefe;
+  --color-sk-text: #fefefe;
+  --color-text-gray: #8c8c8c;
+}
+.theme-blue {
+  --color-tile: var(--color-tile-blue);
+  --color-background: var(--color-background-blue);
+  --color-sk-background: #1aaaff;
+}
+.theme-orange {
+  --color-tile: var(--color-tile-orange);
+  --color-background: var(--color-background-orange);
+  --color-sk-background: black;
+  --color-sk-text: #ffaa1a;
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  font-family: 'Open Sans';
+}

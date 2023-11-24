@@ -1,0 +1,14 @@
+{
+  "name": "Metro launcher",
+  "description": "Alternative Homescreen",
+  "type": "certified",
+  "role": "homescreen",
+  "permissions": {
+    "webapps-manage": {}
+  },
+  "launch_path": "/index.html",
+  "origin": "app://launcher.km",
+  "chrome": {
+    "statusbar": "overlap"
+  }
+}

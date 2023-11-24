@@ -1,0 +1,23 @@
+.applistview {
+  transition-property: opacity,transform;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+  background: rgba(0, 0, 0, 0.9);
+  color: var(--color-text);
+  opacity: 0;
+  transform: translateY(50%);
+  z-index: -1;
+}
+.applistview-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.applist-header {
+  margin-top: 23px;
+  padding-left: 2px;
+  padding-top: 2px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 25px;
+}

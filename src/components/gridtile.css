@@ -1,0 +1,20 @@
+.grid-tile {
+  background: var(--color-tile);
+  margin: 0 0 3px 3px;
+}
+.grid-tile-child {
+  background: var(--color-tile-overlay);
+  width: 76px;
+  height: 76px;
+  border-radius: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+.grid-tile-child:focus {
+  background: var(--color-tile-selected-overlay);
+  border: solid var(--color-background) 2.3px;
+}
+.grid-tile-child > img {
+  width: 52px;
+  height: 52px;
+}

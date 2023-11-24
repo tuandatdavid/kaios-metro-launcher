@@ -1,0 +1,13 @@
+.clock {
+  margin-top: 30px;
+  padding: 0 5px 0 5px;
+  color: var(--color-text);
+  text-shadow: 1px 1px 1px var(--color-text-gray);
+  flex-grow: 1;
+}
+.clock-dig, .clock-colon {
+  font-size: 48px;
+}
+.clock-colon:after {
+  content: ":";
+}
