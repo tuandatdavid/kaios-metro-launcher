@@ -15,7 +15,9 @@ Feature Phone](https://www.windowscentral.com/microsoft-feature-phone-rm-1182-wi
 Clock screen:
  - `Up`: Quick settings (2.5.2+)
  - `Down`: Contacts
- - `Call`: Call log
+ - `Right`: K-Music
+ - `Left` : KaiOS Default Launcher
+ - `Call`: Call log (doesn’t work for some reason on 2.5.4)
  - `Left Softkey`: Notifications
  - `Right Softkey`: Camera
 
