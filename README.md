@@ -1,6 +1,6 @@
 # kaios-metro-launcher
 credit to Affe Null (https://gitlab.com/affenull2345/kaios-metro-launcher)
-adds ArrowLeft = system launcher (dialer) and ArrowRight = k-music
+adds ArrowLeft = system launcher (dialer) and ArrowRight = k-music and ArrowDown = fastcontact
 
 # Custom launcher for KaiOS
 
