@@ -54,7 +54,7 @@ export default class ClockView extends Co {
   }
   load() {
     return new Promise((resolve, reject) => {
-      this.sk.set(SoftKey.icon('message'), 'App Menu', 'Camera');
+      this.sk.set(SoftKey.icon('message'), 'Menu', 'Camera');
       import('./applistview').then(AppListView => {
         this.appview = new AppListView.default(this.backend, this);
         this.appview.load(); // Background
