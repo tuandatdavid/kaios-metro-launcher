@@ -41,7 +41,7 @@ export default class ClockView extends Co {
           backend.launchApp('app://fastcontact.bananahackers.net/manifest.webapp');
           break;
         case 'Call':
-          backend.launchApp('app://communications.gaiamobile.org/manifest.webapp#call_log');
+          backend.launchApp('app://communications.gaiamobile.org/manifest.webapp');
           break;
 	case 'ArrowLeft':
 	backend.launchApp('app://launcher.gaiamobile.org/manifest.webapp');
@@ -54,7 +54,7 @@ export default class ClockView extends Co {
   }
   load() {
     return new Promise((resolve, reject) => {
-      this.sk.set(SoftKey.icon('message'), 'Apps', 'Camera');
+      this.sk.set(SoftKey.icon('message'), 'App Menu', 'Camera');
       import('./applistview').then(AppListView => {
         this.appview = new AppListView.default(this.backend, this);
         this.appview.load(); // Background
