@@ -15,7 +15,7 @@
  */
 :root {
   --color-tile-blue: #00a0ff;
-  --color-tile-orange: #ff9000;
+  --color-tile-orange: #000000;
   --color-background-blue: rgba(0, 85, 155, 0.68);
   --color-background-orange: rgba(85, 45, 0, 0.68);
   --color-tile-overlay: rgba(0, 0, 0, 0.15);
