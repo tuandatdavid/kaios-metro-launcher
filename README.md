@@ -22,7 +22,7 @@ Clock screen:
  - `Right Softkey`: Camera
 
 App menu:
- - `Left Softkey`: Currently toggles between blue and orange theme.
+ - `Left Softkey`: Currently toggles between blue and black theme.
 
 ## To-Do
 
