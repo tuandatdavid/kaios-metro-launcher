@@ -117,7 +117,7 @@ export default function getBackend() {
   let bookmarks = [
     {
       url: 'https://bananahackers.net',
-      name: 'BananaHackers website',
+      name: 'BananaHackers',
       _icon: 'https://ivan-hc.github.io/bananahackers/3b2cea4941415cce67e0d9cf1e7f2e8a.jpg'
     },
     {
@@ -158,7 +158,7 @@ export default function getBackend() {
     }
     get color() {
       if(!color_ignore[this.id])
-        return this.moz.manifest.theme_color;
+        return undefined;
       else
         return undefined;
     }
