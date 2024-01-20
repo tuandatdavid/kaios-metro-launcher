@@ -24,7 +24,7 @@ Clock screen:
 App menu:
  - `Left Softkey`: Currently toggles between blue and black theme.
 
-## To-Do
+## To-Do (I ain't doing any of that)
 
  - Options menu
  - Moving/reordering apps
