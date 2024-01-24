@@ -31,7 +31,7 @@ App menu:
  - More themes
  - Dialing feature
  - Pinned Websites from system (currently just hadcoded to
-   BananaHackers.net and the wiki which does not work on KaiOS)
+   BananaHackers.net and the wiki which *does* work on KaiOS)
 
 Feel free to submit a merge request if you want to implement something new!!
 
