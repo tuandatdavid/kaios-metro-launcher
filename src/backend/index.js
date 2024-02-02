@@ -157,9 +157,6 @@ export default function getBackend() {
       return this.moz.manifest.name;
     }
     get color() {
-      if(!color_ignore[this.id])
-        return undefined;
-      else
         return undefined;
     }
   }
@@ -217,7 +214,7 @@ export default function getBackend() {
     let ret = [];
     for(const app of applist){
       if(['system', 'theme', 'homescreen', 'input'].includes(app.manifest.role)
-        && app.manifestURL !== 'app://homescreen.gaiamobile.org'
+        && app.origin !== 'app://stk.gaiamobile.org'
         && !showSystem)
       {
         continue;
