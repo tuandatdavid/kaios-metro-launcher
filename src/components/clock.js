@@ -73,7 +73,7 @@ export default class Clock extends Co {
       return;
     }
     this.date.textContent =
-      weekdays[d.getDay()] + ', ' + d.toLocaleDateString();
+      weekdays [d.getDate()] + ' ' + d.toLocaleDateString();
     this.lastHours = hr;
     this.lastMinutes = mi;
     let hr1 = Math.floor(hr / 10);

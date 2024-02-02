@@ -1,8 +1,8 @@
 .clock {
-  margin-top: 30px;
-  padding: 0 5px 0 40px;
+  margin-top: 80px;
+  padding: 0 5px 0 80px;
   color: var(--color-text);
-  text-shadow: 1px 1px 1px var(--color-text-gray);
+  text-shadow: 2px 2px 2px var(--color-text-gray);
   flex-grow: 1;
 }
 .clock-dig, .clock-colon {
@@ -10,4 +10,9 @@
 }
 .clock-colon:after {
   content: ":";
+}
+.clock-date {
+  padding-left: 85px;
+  padding-right: 5px;
+  margin-top: -5px;
 }
