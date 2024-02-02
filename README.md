@@ -1,5 +1,6 @@
 # kaios-metro-launcher
 The launcher with blue metro style option
+
 credit to Affe Null (https://gitlab.com/affenull2345/kaios-metro-launcher)
 
 adds ArrowLeft = system launcher (dialer) and ArrowRight = k-music and ArrowDown = fastcontact
