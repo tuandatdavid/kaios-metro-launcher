@@ -1,5 +1,7 @@
 # kaios-metro-launcher
+The launcher with blue metro style option
 credit to Affe Null (https://gitlab.com/affenull2345/kaios-metro-launcher)
+
 adds ArrowLeft = system launcher (dialer) and ArrowRight = k-music and ArrowDown = fastcontact
 
 # Custom launcher for KaiOS
@@ -8,7 +10,7 @@ This is a custom homescreen app for KaiOS. It can't dial phone numbers yet,
 use Call Log and Contacts for that.
 
 The user interface was designed to resemble that of the [cancelled Microsoft
-Feature Phone](https://www.windowscentral.com/microsoft-feature-phone-rm-1182-windows), hence the name "metro".
+Feature Phone](https://www.windowscentral.com/microsoft-feature-phone-rm-1182-windows), hence the name "metro". 
 
 
 
@@ -24,14 +26,9 @@ Clock screen:
 App menu:
  - `Left Softkey`: Currently toggles between blue and black theme.
 
-## To-Do (I ain't doing any of that)
+## To-Do 
 
- - Options menu
- - Moving/reordering apps
- - More themes
- - Dialing feature
- - Pinned Websites from system (currently just hadcoded to
-   BananaHackers.net and the wiki which *does* work on KaiOS)
+ - Some ui stuff
 
 Feel free to submit a merge request if you want to implement something new!!
 
