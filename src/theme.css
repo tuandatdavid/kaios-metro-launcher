@@ -15,9 +15,9 @@
  */
 :root {
   --color-tile-blue: #00a0ff;
-  --color-tile-orange: #000000;
+  --color-tile-orange: #00000000;
   --color-background-blue: rgba(0, 85, 155, 0.68);
-  --color-background-orange: rgba(85, 45, 0, 0.68);
+  --color-background-orange: rgba(0, 0, 0, 0.037);
   --color-tile-overlay: rgba(0, 0, 0, 0.15);
   --color-tile-selected-overlay: rgba(255, 255, 255, 0.15);
   --color-text: #fefefe;
@@ -32,8 +32,8 @@
 .theme-orange {
   --color-tile: var(--color-tile-orange);
   --color-background: var(--color-background-orange);
-  --color-sk-background: black;
-  --color-sk-text: #ffaa1a;
+  --color-sk-background: rgba(0, 0, 0, 0.318);
+  --color-sk-text: #ffffff;
 }
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 * {
