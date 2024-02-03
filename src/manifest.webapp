@@ -1,6 +1,6 @@
 {
   "name": "Metro launcher",
-  "description": "Alternative Homescreen",
+  "description": "Alternative homescreen",
   "type": "certified",
   "role": "homescreen",
   "permissions": {
