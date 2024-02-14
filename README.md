@@ -1,14 +1,16 @@
 # kaios-metro-launcher
-The launcher with blue metro style option
+The kinda lightweight launcher with blue metro style option
 
-credit to Affe Null (https://gitlab.com/affenull2345/kaios-metro-launcher)
+Credit to [Affe Null](https://gitlab.com/affenull2345/kaios-metro-launcher). He's a genius
 
-adds ArrowLeft = system launcher (dialer) and ArrowRight = k-music and ArrowDown = fastcontact
+
+
+Adds ArrowLeft = system launcher (dialer) and ArrowRight = k-music and ArrowDown = fastcontact
 
 # Custom launcher for KaiOS
 
 This is a custom homescreen app for KaiOS. It can't dial phone numbers yet,
-use Call Log and Contacts for that.
+use Fastlog and Fastcontact for that.
 
 The user interface was designed to resemble that of the [cancelled Microsoft
 Feature Phone](https://www.windowscentral.com/microsoft-feature-phone-rm-1182-windows), hence the name "metro". 
@@ -17,10 +19,10 @@ Feature Phone](https://www.windowscentral.com/microsoft-feature-phone-rm-1182-wi
 
 Clock screen:
  - `Up`: Quick settings (2.5.2+)
- - `Down`: Contacts
+ - `Down`: Fastcontact
  - `Right`: K-Music
  - `Left` : KaiOS Default Launcher
- - `Call`: Call log (doesn’t work for some reason on 2.5.4)
+ - `Call`: Fastlog (fastlog doesn't work for me on 2.5.4)
  - `Left Softkey`: Notifications
  - `Right Softkey`: Camera
 
@@ -29,9 +31,10 @@ App menu:
 
 ## To-Do 
 
- - Some ui stuff
+ - Some UI stuff
+ - Dialer
 
-Feel free to submit a merge request if you want to implement something new!!
+Feel free to submit a merge request if you want to implement something new!! Help would be appreciated, I don't know javascript
 
 ## Build
 
