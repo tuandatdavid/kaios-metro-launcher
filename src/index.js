@@ -18,7 +18,7 @@ import ClockView from './components/clockview';
 import './index.css';
 import setTheme from './theme.js';
 
-setTheme(localStorage.theme || 'blue');
+setTheme(localStorage.theme || 'orange');
 
 // Load the UI components asynchronously
 

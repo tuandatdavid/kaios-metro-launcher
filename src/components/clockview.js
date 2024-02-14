@@ -43,11 +43,11 @@ export default class ClockView extends Co {
         case 'Call':
           backend.launchApp('app://fastlog.bananahackers.net/manifest.webapp');
           break;
-	case 'ArrowLeft':
-	backend.launchApp('app://launcher.gaiamobile.org/manifest.webapp');
-	break;
-	case 'ArrowRight':
-	backend.launchApp('app://kaimusic.arma7x.com/manifest.webapp');
+	      case 'ArrowLeft':
+	        backend.launchApp('app://launcher.gaiamobile.org/manifest.webapp');
+	        break;
+	      case 'ArrowRight':
+	        backend.launchApp('app://kaimusic.arma7x.com/manifest.webapp');
 	;
         }
     };

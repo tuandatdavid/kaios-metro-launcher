@@ -4,6 +4,7 @@
   color: var(--color-text);
   text-shadow: 2px 2px 2px var(--color-text-gray);
   flex-grow: 1;
+  text-align: right;
 }
 .clock-dig, .clock-colon {
   font-size: 60px;
@@ -12,7 +13,7 @@
   content: ":";
 }
 .clock-date {
-  padding-left: 80px;
   padding-right: 5px;
   margin-top: -5px;
+  text-align: right;
 }
