@@ -1,6 +1,6 @@
 .clock {
-  margin-top: 80px;
-  padding: 0 5px 0 80px;
+  margin-top: 90px;
+  padding: 0 5px 0 70px;
   color: var(--color-text);
   text-shadow: 1px 1px 1px var(--color-text-gray);
   flex-grow: 1;
@@ -14,6 +14,6 @@
 }
 .clock-date {
   padding-right: 5px;
-  margin-top: -5px;
+  margin-top: -6px;
   text-align: right;
 }
